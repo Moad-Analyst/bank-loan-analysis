@@ -138,10 +138,10 @@ WHERE MONTH(issue_date) = 12;
 
 **PMTD Loan Applications**
 ```
-SELECT COUNT(*) AS MTD_Loan_Applications FROM loan_data
+SELECT COUNT(*) AS PMTD_Loan_Applications FROM loan_data
 WHERE MONTH(issue_date) = 11;
 ```
-![PMTD Loan Applications](https://github.com/user-attachments/assets/67693f9e-fc16-481b-ae8c-d5eb80830706)
+![PMTD Loan Applications](https://github.com/user-attachments/assets/27f580f4-7523-472e-9073-6676cb9c6193)
 
 **MOM Change in loan applications**
 ```
@@ -450,3 +450,26 @@ ORDER BY
 	COUNT(id) DESC;
 ```
 ![Home Ownership Analysis](https://github.com/user-attachments/assets/1861faa2-0e93-4b8b-8782-cfc107dbb9ff)
+
+## Power BI Report 
+
+**The Report Comprises Of 3 Pages:**
+1. Summary Dashboard
+2. Overview Dashboard
+3. Details Dashboard
+
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiNGViM2Q2MzItMzNkNC00MThhLThmODYtYTlmYjE2MWM5OWE1IiwidCI6ImZjZjMyMWUxLTU1OGQtNGQzMi1iZWI1LTk2MDAwNDRhZDBjNiJ9)
+
+## Key Insights
+
+**Let’s weave these insights into a narrative that highlights their significance:**
+- The bank received a substantial number of **loan applications—38.6K in total**. This reflects the demand for financial assistance, which could be driven by various factors such as economic conditions, personal needs, or investment opportunities.
+- The funded amount of **$435.8M indicates the bank’s commitment to supporting borrowers**. Understanding this figure helps us appreciate the scale of financial transactions involved.
+- The majority of loans issued **(86.2%)** fall into the “good” category. These loans are likely associated with lower risk profiles, making them safer investments for the bank.
+- However, the **13.8% of “bad” loans** represent potential risks. Monitoring this segment is crucial for risk management and ensuring the bank’s financial stability.
+- Responsible borrowers who fully paid their loans **(11.64%)** positively contribute to the bank’s **revenue**. However, **charged-off loans (13.17%) are concerning, affecting the bank’s profitability**. **Analyzing patterns behind these defaults informs future lending strategies**.
+- Analyzing loan applications by employee length provides insights into employee performance and efficiency. Purpose categorization informs product development.
+
+## Recomendatios
+- **Implement dynamic interest rates** that adjust based on borrower behavior. For example, if a borrower consistently pays on time, **offer rate reductions**. Conversely, **increase rates for higher-risk borrowers**.
+- **To enhance decision-making efficiency**, focus on areas with higher application volumes but lower funding rates. Identifying potential bottlenecks or issues in the loan approval process can lead to better resource allocation and improved loan outcomes.
