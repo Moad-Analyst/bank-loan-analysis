@@ -1,6 +1,15 @@
 # Bank Loan Report 🏦
 A comprehensive data analytics project on bank loan data using Excel & Power Query for data Cleaning and Transforming MySQL for database management and Power BI for data visualization and validation
-
+## Table Of Content
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Transforming and Cleaning](#transforming-and-cleaning)
+- [Steps to Customize Date Format in Excel](#steps-to-customize-date-format-in-excel)
+- [MySQL QUERIES](#mysql-queries)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Power BI Report](#power-bi-report)
+- [Key Insights](#key-insights)
+- [Recomendations](#recomendations)
 ## Introduction
 This data analytics project aims to enhance our understanding of the bank's loan portfolio by developing key performance indicators (KPIs) and visualizations. We will calculate and monitor total loan applications, funded amounts, and amounts received, analyzing these metrics on a month-to-date (MTD) and month-over-month (MoM) basis. We will also assess average interest rates and debt-to-income ratios (DTI). KPIs for good and bad loans will be established, and a loan status grid view will provide comprehensive insights. Various charts will visualize monthly trends, regional analysis, loan terms, employment length, loan purposes, and home ownership impacts. Finally, a 'Details Dashboard' will offer a holistic view of key loan-related metrics for efficient access to critical information.
 
@@ -470,6 +479,6 @@ You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiN
 - Responsible borrowers who fully paid their loans **(11.64%)** positively contribute to the bank’s **revenue**. However, **charged-off loans (13.17%) are concerning, affecting the bank’s profitability**. **Analyzing patterns behind these defaults informs future lending strategies**.
 - Analyzing loan applications by employee length provides insights into employee performance and efficiency. Purpose categorization informs product development.
 
-## Recomendatios
+## Recomendations
 - **Implement dynamic interest rates** that adjust based on borrower behavior. For example, if a borrower consistently pays on time, **offer rate reductions**. Conversely, **increase rates for higher-risk borrowers**.
 - **To enhance decision-making efficiency**, focus on areas with higher application volumes but lower funding rates. Identifying potential bottlenecks or issues in the loan approval process can lead to better resource allocation and improved loan outcomes.
