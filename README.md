@@ -1,6 +1,7 @@
-# Bank Loan Report 🏦
+[financial_loan.csv](https://github.com/user-attachments/files/16326208/financial_loan.csv)# Bank Loan Report 🏦
 A comprehensive data analytics project on bank loan data using Excel & Power Query for data Cleaning and Transforming MySQL for database management and Power BI for data visualization and validation
 ## Table Of Content
+- [Data Souce](#data-souce)
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [Transforming and Cleaning](#transforming-and-cleaning)
@@ -10,6 +11,10 @@ A comprehensive data analytics project on bank loan data using Excel & Power Que
 - [Power BI Report](#power-bi-report)
 - [Key Insights](#key-insights)
 - [Recomendations](#recomendations)
+
+## Data Souce
+**Data Link :** (https://drive.google.com/file/d/1XDoJN8Dpr1QUR8txSTdj_enWDp8TOMGL/view?usp=sharing)
+
 ## Introduction
 This data analytics project aims to enhance our understanding of the bank's loan portfolio by developing key performance indicators (KPIs) and visualizations. We will calculate and monitor total loan applications, funded amounts, and amounts received, analyzing these metrics on a month-to-date (MTD) and month-over-month (MoM) basis. We will also assess average interest rates and debt-to-income ratios (DTI). KPIs for good and bad loans will be established, and a loan status grid view will provide comprehensive insights. Various charts will visualize monthly trends, regional analysis, loan terms, employment length, loan purposes, and home ownership impacts. Finally, a 'Details Dashboard' will offer a holistic view of key loan-related metrics for efficient access to critical information.
 
