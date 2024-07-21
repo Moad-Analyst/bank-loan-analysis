@@ -1,4 +1,4 @@
-[financial_loan.csv](https://github.com/user-attachments/files/16326208/financial_loan.csv)# Bank Loan Report 🏦
+# Bank Loan Report 🏦
 A comprehensive data analytics project on bank loan data using Excel & Power Query for data Cleaning and Transforming MySQL for database management and Power BI for data visualization and validation
 ## Table Of Content
 - [Data Souce](#data-souce)
